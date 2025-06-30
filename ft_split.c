@@ -5,16 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/25 15:57:08 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:09:51 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
 static int	count_words(const char *s, char c)
 {
@@ -106,30 +102,3 @@ char	**ft_split(char const *s, char c)
 	words[i] = (NULL);
 	return (words);
 }
-/*
-int	main(void)
-{
-	char	**result;
-	int		i;
-	char	*str;
-	char	delimiter;
-
-	i = 0;
-	str = "xxxxxxxxhello!";
-	delimiter = 'x';
-	result = ft_split(str, delimiter);
-	if (!result)
-	{
-		printf("ft_split selhalo\n");
-		return (1);
-	}
-	while (result[i])
-	{
-		printf("Slovo %d: %s\n", i, result[i]);
-		free(result[i]);
-		i++;
-	}
-	free(result);
-	return (0);
-}
-*/

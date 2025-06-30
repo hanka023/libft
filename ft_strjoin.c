@@ -5,14 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/25 12:25:56 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:10:14 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {
@@ -40,17 +38,3 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	s3[i + j] = ('\0');
 	return (s3);
 }
-
-/*
-int	main()
-{
-	char *res;
-	res = ft_strjoin("Hello, ", "world!");
-	if (res)
-	{
-		printf("Test 1 : %s\n", res);
-		free(res);
-	}
-	return (0);
-}
-*/

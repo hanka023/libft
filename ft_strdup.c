@@ -5,16 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/26 14:29:19 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:10:02 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
 
 char	*ft_strdup(const char *str)
 
@@ -38,24 +34,3 @@ char	*ft_strdup(const char *str)
 	copy[len] = '\0';
 	return (copy);
 }
-/*
-int	main(void)
-{
-	char	*original;
-	char	*copy;
-
-	original = "Ahoj světe!";
-	copy = ft_strdup(original);
-	if (copy)
-	{
-		printf("Původní: %s\n", original);
-		printf("Kopie:    %s\n", copy);
-		free(copy);
-	}
-	else
-	{
-		printf("Alokace selhala.\n");
-	}
-	return (0);
-}
-	*/

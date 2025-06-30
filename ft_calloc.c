@@ -5,16 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/25 13:33:53 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:12:11 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
@@ -34,23 +30,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return ((void *)ptr);
 }
-
-/*
-int	main(void)
-{
-	int	i;
-	int	size;
-	int	*arr;
-
-	i = 0;
-	size = 5;
-	arr = (int*)calloc(size,sizeof(int));
-	while (i <  size)
-	{
-		printf("%d",arr[i]);
-		++i;
-	}
-	free(arr);
-	return(0);
-}
-	*/

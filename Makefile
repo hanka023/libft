@@ -75,6 +75,3 @@ re: fclean all
 
 # Phony cíle
 .PHONY: all clean fclean re
-
-
-

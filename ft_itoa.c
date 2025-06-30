@@ -5,16 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/26 14:09:26 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:08:12 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
 static int	numlen(long n)
 {
@@ -63,27 +59,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-
-/*
-int	main(void)
-{
-	int		test_values[] = {0, 1, -1, 42, -42, 12345, -12345, 2147483647,
-				-2147483648};
-	int		i;
-	char	*result;
-	for (i = 0; i < sizeof(test_values) / sizeof(test_values[0]); i++)
-	{
-		result = ft_itoa(test_values[i]);
-		if (result)
-		{
-			printf("ft_itoa(%d) = \"%s\"\n", test_values[i], result);
-			free(result); // nezapomeň uvolnit paměť
-		}
-		else
-		{
-			printf("ft_itoa(%d) = NULL (allocation failed)\n", test_values[i]);
-		}
-	}
-	return (0);
-}
-	*/

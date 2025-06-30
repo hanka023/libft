@@ -5,15 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/26 14:23:22 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:08:25 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <unistd.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
@@ -34,21 +31,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/*
-int	main(void)
-{
-	int		x;
-	char	data[] = "1234567P..........";
-	char	*found;
-
-	x = 'P';
-	found = ft_memchr(data, x, 8);
-	if (found) {
-		printf("here is it: %s\n", found);
-	} else {
-		printf("no x :( \n");
-	}
-	return (0);
-}
-*/

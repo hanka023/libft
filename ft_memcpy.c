@@ -5,15 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/25 14:35:57 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:08:43 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <unistd.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -35,23 +32,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/*
-int	main(void)
-{
-	int		i;
-	int		x;
-	char	dest[] = "00000000000";
-	char	src[] = "hello ";
-
-	i = 0;
-	x = 6;
-	ft_memcpy(dest,src, 6);
-	while(dest[i] != '\0')
-	{
-		printf("%c", dest[i]);
-		++i;
-	}
-	return(0);
-}
-*/

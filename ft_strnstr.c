@@ -5,15 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/28 14:46:14 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:10:44 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <unistd.h>
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
@@ -42,18 +39,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	const char	*haystack = "Hello 42 students!";
-	const char	*needle = "42";
-	char		*result;
-	result = ft_strnstr(haystack, needle, 10);
-	if (result)
-		printf("Found: '%s'\n", result);
-	else
-		printf("Not found.\n");
-	return (0);
-}
-	*/

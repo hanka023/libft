@@ -5,15 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: haskalov <haskalov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2013/11/18 13:37:42 by kube              #+#    #+#             */
-/*   Updated: 2025/06/26 14:20:51 by haskalov         ###   ########.fr       */
+/*   Created: 2025/06/01 13:37:42 by haskalov          #+#    #+#             */
+/*   Updated: 2025/06/30 14:10:38 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <unistd.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
@@ -28,16 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	char	*s1;
-	char	*s2;
-	int		i;
-	s1 = "0";
-	s2 = "2";
-	i = ft_strncmp(s1,s2,10);
-	printf("%d\n", i);
-}
-	*/
