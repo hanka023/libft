@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// atoi, atol, atoll - convert a string to an integer
+// convert a string to an integer
 // man atoi
 
 #include "libft.h"
