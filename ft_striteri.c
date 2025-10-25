@@ -9,6 +9,7 @@
 /*   Updated: 2025/06/30 14:10:08 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+// applikuje funkci *f na kazdy znak retezce
 
 #include "libft.h"
 
