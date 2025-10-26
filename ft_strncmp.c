@@ -9,6 +9,8 @@
 /*   Updated: 2025/06/30 14:10:38 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+// The  strcmp()  function compares the two strings s1 and s2.  The locale is not taken into account (for a locale-
+// aware comparison, see strcoll(3)).  The comparison is done using unsigned characters.
 
 #include "libft.h"
 
