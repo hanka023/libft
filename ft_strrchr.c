@@ -9,6 +9,7 @@
 /*   Updated: 2025/06/30 14:10:50 by haskalov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+//  The strchr() function returns a pointer to the first occurrence of the character c in the string s
 
 #include "libft.h"
 
